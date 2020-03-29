@@ -8,4 +8,4 @@ class ProductAdmin(admin.ModelAdmin):
     list_display = ('title', )
 
 
-admin.register(Product, ProductAdmin)
+admin.site.register(Product, ProductAdmin)
